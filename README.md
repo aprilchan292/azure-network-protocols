@@ -113,9 +113,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Initiate perpetual/non-stop ping from Windows 10 VM to Ubuntu VM.</li>
     <img src="https://i.imgur.com/DajRANa.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
     <li>Disable incoming ICMP traffic in Network Security Group of Ubuntu VM and observe the changes.</li>
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <ul>
+      <li>In the Azure Portal, navigate to Network Security Groups, then under Settings, go to Inbound Security Rules, and select "Add"</li>
+      <li>The request will now appear as timed out in Windows PowerShell.</li>
+    </ul>
+    <img src="https://i.imgur.com/DL9BCzR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+     <img src="https://i.imgur.com/5IzH8p7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <li>Re-enable ICMP traffic and observe.</li>
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <ul>
+      <li>Follow the previous steps, but instead of selecting "Add," locate "DenyAnyCustomAnyInbound" and change the action to "Allow."</li>
+    </ul>
+    <img src="https://i.imgur.com/T52JBqH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   </ul>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
