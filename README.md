@@ -70,7 +70,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Navigate to Network Watcher in the Azure portal.</li>
     <li>Observe the virtual network you've created to ensure it's set up correctly.</li>
   </ul>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jJmBrTD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 </ol>
 <br />
@@ -141,7 +141,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Type commands and observe SSH traffic.</li>
     <li>Exit SSH connection.</li>
   </ul>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/l0r9Uo4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
@@ -151,7 +151,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Filter for DHCP traffic in Wireshark.</li>
     <li>Attempt to renew IP address from Windows 10 VM and observe DHCP traffic.</li>
   </ul>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jbgLBJi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
@@ -159,10 +159,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   <li>Filter and Observe DNS Traffic:</li>
   <ul>
     <li>Filter for DNS traffic in Wireshark.</li>
-    <li>Use nslookup in Windows 10 VM to check IP addresses for google.com and disney.com.</li>
+    <li>Use nslookup in Windows 10 VM to check IP addresses for google.com.</li>
     <li>Observe DNS traffic.</li>
   </ul>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OHzRQlY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
@@ -172,7 +172,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
     <li>Filter for RDP traffic in Wireshark.</li>
     <li>Observe the traffic pattern and its continuous transmission.</li>
   </ul>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KRG1qKW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 </ol>
 
+
+<h2>Lab Cleanup (DON’T FORGET THIS)</h2>
+<p>
+Close your Remote Desktop connection.
+Delete the Resource Group(s) created at the beginning of this lab.
+Verify Resource Group Deletion.
+</p>
